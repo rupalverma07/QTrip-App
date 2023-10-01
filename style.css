@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bannner{
+    height: 80vh;
+    background-size: cover;
+    background-position: centre;
+    object-fit: cover;
+    /* background */
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://media.istockphoto.com/id/1198931566/photo/stairs-along-the-hills-in-oia-santorini-greece.jpg?s=2048x2048&w=is&k=20&c=f6yX6sysw8nxn4DQwiPFTwL6h9IMUE6SZ7oKcldOapE=');
+}
+
+/* .xyz{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 800px;
+border: 1px solid red;
+}
+
+.jiv{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    margin: 15px;
+    padding: 15px; 
+}*/
+.bannner h1{
+    font-size: 40px;
+    color: aqua;
+}
+
+.bannner p{
+    font-size: 30px;
+    color: aquamarine;
+    text-align: center;
+}
+
+.bannerWidth {
+ 
+    width: 60%;
+}
+
+.tile{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 8px; */
+    overflow: hidden;
+}
+
+.tile img{
+    object-fit: cover;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.tile img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.tile-container{
+    position: relative;
+    margin-bottom: 20px;
+
+}
+.tile-text{
+    position: absolute;
+    z-index: 10;
+    bottom: 5%;
+    /* left: 5%; */
+    /* margin: 0 auto; */
+}
+
+.tile-heading{
+    position: absolute;
+    z-index: 10;
+    bottom: 10%;
+    /* left: 10%; */
+    /* margin: 0 auto;  */
+
+}
+
+/* .tile-heading:hover{
+    font-size: 30px;
+}
+
+.tile-text:hover{
+    font-size: 20px;
+} */
+
